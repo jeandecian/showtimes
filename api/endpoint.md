@@ -2,12 +2,12 @@
 
 ## Movies
 
-| Endpoint                                         | Query Parameters | Description                          |
-|--------------------------------------------------|------------------|--------------------------------------|
-| `GET /api/v1/movies`                             | Optional         | Movies                               |
-| `GET /api/v1/movies/:id`                         |                  | Movie information                    |
-| `GET /api/v1/movies/:id/availabletheatres`       |                  | Available theatres for movie         |
-| `GET /api/v1/movies/:id/availabletheatres/dates` | Optional         | Available dates by theatre for movie |
+| Endpoint                                         | Query Parameters          | Description                          |
+|--------------------------------------------------|---------------------------|--------------------------------------|
+| `GET /api/v1/movies`                             | [Optional](movies/get.md) | List all movies                      |
+| `GET /api/v1/movies/:id`                         |                           | Movie information                    |
+| `GET /api/v1/movies/:id/availabletheatres`       |                           | Available theatres for movie         |
+| `GET /api/v1/movies/:id/availabletheatres/dates` | Optional                  | Available dates by theatre for movie |
 
 ## Showtimes
 
